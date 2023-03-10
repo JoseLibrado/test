@@ -1,11 +1,7 @@
 package org.example;
 
 import org.example.dto.Employee;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-
-import java.util.Map;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {

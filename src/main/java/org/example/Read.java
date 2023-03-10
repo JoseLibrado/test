@@ -7,8 +7,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 import java.io.FileReader;
-import java.util.HashMap;
-import java.util.Map;
 
 public class Read extends Validations{
     private String jsonFile;
@@ -29,7 +27,7 @@ public class Read extends Validations{
             return jsonObject;
 
         }catch (Exception e){
-            System.out.println(e.getStackTrace());
+            System.out.println("Ocurrio un error con la fuente de informacion...\n" + e.getStackTrace());
         }
         return null;
     }
